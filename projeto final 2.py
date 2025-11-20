@@ -390,7 +390,7 @@ class Molaridade(tk.Toplevel): #janela de calculo de molaridade
         self.entries[self.entrada_ativa].focus_set()
 
         #Label que vai aparecer quando o botão avançar por apertado por ultimo para gerar o resultado
-        self.resultado = tk.Label(self, text="", font=("Times New Roman", 12), fg="#F500A1", bg="#9CCF9C")
+        self.resultado = tk.Label(self, text="", font=("Times New Roman", 12), fg="white", bg="#9CCF9C")
         self.resultado.place(x=316, y=205)
 
 #função que permite abrir o menu de conversões
